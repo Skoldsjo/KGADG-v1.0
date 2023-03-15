@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", "Open Sans", "Helvetica Neue", "Helvetica", "sans-serif";
+}
+
+header {
+    height: 10vh;
+    background-image: url(./img/header.jpg);
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex; 
+}
+
+nav ul li {
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    background-image: url(./img/pexels-rui-chaves-5361647.jpg);
+    background-size: cover;
+    height: 90vh;
+}
+
+.hero-top {
+    width: 100%;
+    padding: 40px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-bottom {
+    display: flex;
+}
+
+.hero-left {
+    width: 50%;
+    margin: auto;
+}
+
+.hero-img {
+    width: 70%;
+    margin: auto;
+    
+}
+
+.hero-left img {
+    width: 100%;
+    
+}
+
+.btn-hero {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-hero button {
+    height: 50px;
+    width: 130px;
+    margin: 10px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: rgb(67, 92, 230);
+    font-weight: bold;
+    
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    background: rgb(15, 28, 99);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 0 10px;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: transform 0.5s;
+}
+
+.icon i {
+    font-size: 20px;
+    color: #fff;
+}
+
+.hero-right {
+    width: 50%;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fly-over {
+   width: 90%;
+   height: 55vh;
+}
+
+/* Wrapper Grid */
+
+.wrapper {
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap: 20px;
+    justify-content: center;
+}
+
+.wrap {
+    height: 300px;
+    background-image: url(./img/disc-grass.jpg);
+    background-attachment: fixed;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.wrap-text {
+    height: 200px;
+    text-align: center;
+    padding: 30px;
+    text-shadow: 2px 2px 5px #000;
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+.wrap-text p {
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.wrap-btn {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.wrap-btn button {
+    height: 30px;
+    width: 100px;
+    text-transform: uppercase;
+    background-color: rgb(67, 92, 230);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/*  */
+
+.info {
+    height: 400px;
+    background-image: url(./img/disc-golf-g8e35b0597_1920.jpg);
+    background-size: cover;
+}
+
+
+footer {
+    height: 180px;
+}
+
+footer p {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    font-weight: bold;
+}
+
+.skoldsjo {
+    background-color: rgb(15, 28, 99);
+    color: #fff;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skoldsjo a {
+    color: #fff;
+}
+
