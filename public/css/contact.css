@@ -1,0 +1,48 @@
+
+
+.test {
+    height: 90vh;
+    display: flex;
+    
+}
+
+.lefto {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.lefto iframe {
+    width: 90%;
+    height: 50vh;
+}
+
+.righto {
+    width: 50%;
+    margin: auto;
+    
+}
+
+.test3 {
+    width: 60%;
+    margin: auto;
+}
+
+.test2 {
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 20px; */
+    /* justify-content: center; */
+    
+}
+
+.test2-grid {
+    /* padding: 30px; */
+    text-align: center;
+}
+
+.test2-grid img {
+    height: 150px;
+    
+}

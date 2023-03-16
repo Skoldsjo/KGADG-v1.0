@@ -1,0 +1,18 @@
+
+
+
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.gallery-img {
+    padding: 30px;
+    
+}
+
+.gallery-img img {
+    width: auto;
+    max-height: 400px;
+}

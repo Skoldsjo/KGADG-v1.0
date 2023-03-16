@@ -5,11 +5,18 @@
     font-family: "Montserrat", "Open Sans", "Helvetica Neue", "Helvetica", "sans-serif";
 }
 
+
+
 header {
+    display: flex;
+    justify-content: center;
     height: 10vh;
-    background-image: url(./img/header.jpg);
+    background: rgb(101,97,232);
+    background: linear-gradient(90deg, rgba(101,97,232,1) 0%, rgba(29,91,167,1) 50%, rgba(68,165,182,1) 100%);  
     position: sticky;
     top: 0;
+    z-index: 1;
+    
 }
 
 nav {
@@ -35,6 +42,48 @@ nav ul li a {
     color: #fff;
 }
 
+/* Hamburger Menu */
+
+
+.hamburger-menu {
+    width: 100%;
+    overflow: hidden;
+    display: none;
+    margin: auto;
+  }
+  
+  .hamburger-menu #myLinks {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 10vh;
+  }
+  
+  /* Style navigation menu links */
+  .hamburger-menu a {
+    color: #fff;
+    padding: 10px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    background: rgb(101,97,232);
+    
+  }
+  
+  /* Style the hamburger menu */
+  .hamburger-menu a.myIcon {
+    background: none;
+    display: block;
+  }
+
+  .hamburger-menu a.myIcon i {
+    font-size: 40px;
+    color: #fff;
+  }
+
+
+
+/* Hero */
 .hero {
     background-image: url(./img/pexels-rui-chaves-5361647.jpg);
     background-size: cover;
@@ -212,7 +261,8 @@ footer p {
 }
 
 .skoldsjo {
-    background-color: rgb(15, 28, 99);
+    background: rgb(101,97,232);
+    background: linear-gradient(90deg, rgba(101,97,232,1) 0%, rgba(29,91,167,1) 50%, rgba(68,165,182,1) 100%);
     color: #fff;
     height: 30px;
     display: flex;
@@ -224,3 +274,15 @@ footer p {
     color: #fff;
 }
 
+
+/* Responsive */
+
+@media only screen and (max-width: 490px) {
+    .hamburger-menu {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+}
