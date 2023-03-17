@@ -1,15 +1,34 @@
 
-.layout-container {
-    height: 90vh;
-    /* background-image: url(./img/pexels-rui-chaves-5361647.jpg);  
-    background-size: cover;  */
+.video {
+    position: relative;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding-top: 56.25%;
+}
+
+.fly-over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.layout-container h2 {
+    text-align: center;
+    padding: 30px;
+    font-size: 32px;
+    text-transform: uppercase;
+
 }
 
 .layout-container img {
-    width: 60vw;
+    width: 70vw;
     display: flex;
     margin: auto;
     
